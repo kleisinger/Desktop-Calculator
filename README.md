@@ -1,7 +1,7 @@
 # Desktop-Calculator
 * A Windows Forms desktop application that functions more similarly to a mechanical handheld calculator (as opposed to a windows calculator)
 * Calculator contains buttons for swapping toggle numbers between Decimal and Binary.
-* Completed solo for Intro to Number Systems and Desktop Applications SD-130 at MITT
+* Completed solo for Intro to Number Systems and Desktop Applications SD-130 course at MITT
 
 ## Assignment Requirements
 Create a Calculator Desktop Application that behaves similarly to the Calculator app you can find in any Windows operating system (OS). It requires the following features:
