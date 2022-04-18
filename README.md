@@ -1,6 +1,6 @@
 # Desktop-Calculator
 * A Windows Forms desktop application that functions more similarly to a mechanical handheld calculator (as opposed to a windows calculator)
-* Functions to swap numbers from Decimal to Binary, and back.
+* Calculator contains buttons for swapping toggle numbers between Decimal and Binary.
 * Completed solo for Intro to Number Systems and Desktop Applications SD-130 at MITT
 
 ## Assignment Requirements
