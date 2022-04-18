@@ -53,6 +53,8 @@
             this.btnDEC = new System.Windows.Forms.Button();
             this.btnLOC = new System.Windows.Forms.Button();
             this.btnSwapSign = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAdd
@@ -369,11 +371,43 @@
             this.btnSwapSign.UseVisualStyleBackColor = true;
             this.btnSwapSign.Click += new System.EventHandler(this.btnSwapSign_Click);
             // 
+            // label1
+            // 
+            this.label1.AccessibleDescription = "Stored Values";
+            this.label1.AccessibleName = "Stored Label";
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(171, 206);
+            this.label1.MaximumSize = new System.Drawing.Size(300, 60);
+            this.label1.Name = "label1";
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label1.Size = new System.Drawing.Size(0, 25);
+            this.label1.TabIndex = 32;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // label2
+            // 
+            this.label2.AccessibleDescription = "Stored Values";
+            this.label2.AccessibleName = "Stored Label";
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(179, 214);
+            this.label2.MaximumSize = new System.Drawing.Size(300, 60);
+            this.label2.Name = "label2";
+            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label2.Size = new System.Drawing.Size(0, 25);
+            this.label2.TabIndex = 33;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(342, 436);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSwapSign);
             this.Controls.Add(this.btnLOC);
             this.Controls.Add(this.btnDEC);
@@ -437,5 +471,8 @@
         private Button btnDEC;
         private Button btnLOC;
         private Button btnSwapSign;
+        private Label label1;
+        private Label label2;
+        private Label label_NumType;
     }
 }
